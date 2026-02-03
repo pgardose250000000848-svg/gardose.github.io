@@ -6,77 +6,6 @@ A premium, professional portfolio website showcasing enterprise-level software e
 
 ---
 
-## 🚀 Quick Deploy to GitHub Pages
-
-### Step 1: Create GitHub Account (if you don't have one)
-1. Go to [github.com](https://github.com)
-2. Click "Sign up"
-3. Follow the registration process
-
-### Step 2: Create a New Repository
-1. Click the **"+"** icon in the top-right corner
-2. Select **"New repository"**
-3. Repository name: `portfolio` (or any name you prefer)
-4. Description: "Professional portfolio showcasing my software engineering projects"
-5. Set to **Public** (required for free GitHub Pages)
-6. ✅ Check **"Add a README file"** (optional)
-7. Click **"Create repository"**
-
-### Step 3: Upload Your Portfolio File
-1. In your new repository, click **"Add file"** → **"Upload files"**
-2. Drag and drop your `index.html` file
-3. Scroll down and click **"Commit changes"**
-
-### Step 4: Enable GitHub Pages
-1. Go to repository **Settings** (gear icon in top menu)
-2. Scroll down to **"Pages"** in the left sidebar
-3. Under **"Source"**, select:
-   - Branch: `main`
-   - Folder: `/ (root)`
-4. Click **"Save"**
-5. Wait 1-2 minutes for deployment
-6. Your site will be live at: `https://yourusername.github.io/portfolio/`
-
-### Step 5: Optional - Use Custom Domain
-1. Buy a domain (e.g., from Namecheap, GoDaddy)
-2. In GitHub Pages settings, add your custom domain
-3. Configure DNS settings with your domain provider
-4. Enable **"Enforce HTTPS"**
-
----
-
-## 📋 Pre-Deployment Checklist
-
-Before deploying, make sure to update these sections in `index.html`:
-
-### ✏️ Required Updates
-
-1. **Email Address** (Line ~398):
-```javascript
-const email = 'pearl.gardose@example.com'; // Change to your real email
-```
-
-2. **Social Media Links** (Lines ~375-383):
-```html
-<a href="https://github.com/YOUR-USERNAME" ...>
-<a href="https://linkedin.com/in/YOUR-USERNAME" ...>
-<a href="https://twitter.com/YOUR-USERNAME" ...>
-```
-
-3. **Project Links** (Throughout projects section):
-- Replace `https://github.com` with your actual project repositories
-- Replace `#` in "Live Demo" with actual deployment URLs
-
-4. **Project Images** (Optional):
-- Replace Unsplash URLs with actual project screenshots
-- Upload images to repository and use relative paths
-
-5. **Project Descriptions**:
-- Customize the 6 project descriptions to match your real work
-- Add specific metrics and technologies you've used
-
----
-
 ## 🎨 Features
 
 ### Visual Design
@@ -203,83 +132,6 @@ This portfolio is free to use for personal purposes. Feel free to customize it f
 
 ---
 
-## 🎯 Post-Deployment Tips
-
-### 1. Test Your Site
-- ✅ Check all links work
-- ✅ Test on mobile devices
-- ✅ Verify email copy function
-- ✅ Test in different browsers (Chrome, Firefox, Safari)
-
-### 2. Share Your Portfolio
-- Add URL to LinkedIn profile
-- Include in email signature
-- Share on Twitter/social media
-- Add to resume/CV
-
-### 3. Keep It Updated
-- Add new projects as you complete them
-- Update tech stack as you learn new technologies
-- Refresh project screenshots
-- Update availability status
-
-### 4. Track Visitors (Optional)
-Add Google Analytics:
-```html
-<!-- Before </head> tag -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=YOUR-ID"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'YOUR-TRACKING-ID');
-</script>
-```
-
-### 5. SEO Optimization
-- Update meta description with keywords
-- Add Open Graph tags for social sharing
-- Submit sitemap to Google Search Console
-- Get backlinks from LinkedIn, GitHub profile
-
----
-
-## 🚨 Troubleshooting
-
-### Site not showing after deployment?
-- Wait 2-3 minutes for GitHub Pages to build
-- Check that file is named `index.html` (lowercase)
-- Verify repository is set to Public
-- Clear browser cache and try again
-
-### Images not loading?
-- Check Unsplash URLs are correct
-- Replace with uploaded images if Unsplash is blocked
-- Ensure image paths are correct
-
-### Styles look broken?
-- Verify Tailwind CDN link is working
-- Check browser console for errors
-- Try different browser
-
-### Email copy not working?
-- Ensure you're on HTTPS (not HTTP)
-- Try different browser
-- Check JavaScript console for errors
-
----
-
-## 🎓 Learn More
-
-Want to enhance your portfolio further?
-
-- [Tailwind CSS Documentation](https://tailwindcss.com/docs)
-- [Font Awesome Icons](https://fontawesome.com/icons)
-- [GitHub Pages Documentation](https://docs.github.com/en/pages)
-- [Web Accessibility Guidelines](https://www.w3.org/WAI/WCAG21/quickref/)
-
----
-
 ## 🌟 Credits
 
 **Designed & Developed by:** Pearl Kristian M. Gardose  
@@ -302,7 +154,5 @@ Want to enhance your portfolio further?
 4. ✅ Enable GitHub Pages
 5. ✅ Share your portfolio URL with the world!
 
-**Your portfolio URL will be:**  
-`https://YOUR-GITHUB-USERNAME.github.io/portfolio/`
 
 Good luck with your job search and career! 🚀
